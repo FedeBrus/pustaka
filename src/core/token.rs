@@ -1,0 +1,41 @@
+pub enum Token {
+    ParenLeft,
+    ParenRight,
+    BraceLeft,
+    BraceRight,
+    BracketLeft,
+    BracketRight,
+    AngleRight,
+    AngleLeft,
+
+    DoubleBracketLeft,
+    DoubleBracketRight,
+    DoubleParenLeft,
+    DoubleParenRight,
+
+    Plus,
+    Semicolon,
+    Hash,
+    DoubleHash,
+    TripleHash,
+    Star,
+    Colon,
+    Bang,
+    Hyphen,
+    Underscore,
+    Backslash,
+    Slash,
+    PipeHyphen,
+    DoubleHyphen,
+    DoubleBackslash,
+
+    Pipe,
+    DoublePipe,
+
+    Text(String),
+    Math(String),
+    Code(String),
+
+    DoubleNewline,
+    Eof,
+}
